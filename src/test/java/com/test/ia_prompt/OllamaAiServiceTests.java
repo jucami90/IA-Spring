@@ -4,11 +4,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder;
 import com.github.tomakehurst.wiremock.client.WireMock;
 import com.test.ia_prompt.record.Question;
-import com.test.ia_prompt.service.AnthropicAiService;
+import com.test.ia_prompt.service.OllamaAiService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.ai.anthropic.AnthropicChatModel;
+import org.springframework.ai.ollama.OllamaChatModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -20,19 +20,19 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 
 @EnableWireMock(
-        @ConfigureWireMock(baseUrlProperties = "anthropic.base.url"))
+        @ConfigureWireMock(baseUrlProperties = "ollama.base.url"))
 @SpringBootTest(properties = {
         "spring.ai.openai.api-key=test",
-        "spring.ai.anthropic.base-url=${anthropic.base.url}",
-        "spring.ai.ollama.base-url=http://localhost:11434"
+        "spring.ai.anthropic.api-key=test",
+        "spring.ai.ollama.base-url=${ollama.base.url}"
 })
-public class AnthropicAiServiceTests {
+public class OllamaAiServiceTests {
 
-    @Value("classpath:/test-anthropic-response.json")
+    @Value("classpath:/test-ollama-response.json")
     Resource responseResource;
 
     @Autowired
-    AnthropicChatModel anthropicChatModel;
+    OllamaChatModel ollamaChatModel;
 
     @BeforeEach
     public void setup() throws IOException {
@@ -40,14 +40,14 @@ public class AnthropicAiServiceTests {
                 responseResource.getContentAsString(Charset.defaultCharset());
         var mapper = new ObjectMapper();
         var responseNode = mapper.readTree(cannedResponse);
-        WireMock.stubFor(WireMock.post("/v1/messages")
+        WireMock.stubFor(WireMock.post("/api/chat")
                 .willReturn(ResponseDefinitionBuilder.okForJson(responseNode)));
     }
 
     @Test
     public void testAskQuestion() {
-        var anthropicService = new AnthropicAiService(anthropicChatModel);
-        var answer = anthropicService.askQuestion(
+        var ollamaService = new OllamaAiService(ollamaChatModel);
+        var answer = ollamaService.askQuestion(
                 new Question("What is the capital of France?"));
         Assertions.assertThat(answer).isNotNull();
         Assertions.assertThat(answer.answer()).isEqualTo("Paris");

@@ -24,7 +24,8 @@ import java.nio.charset.Charset;
 		@ConfigureWireMock(baseUrlProperties = "openai.base.url"))
 @SpringBootTest(properties = {
 		"spring.ai.openai.base-url=${openai.base.url}",
-		"spring.ai.anthropic.api-key=test"
+		"spring.ai.anthropic.api-key=test",
+		"spring.ai.ollama.base-url=http://localhost:11434"
 })
 public class IaPromptApplicationTests {
 
