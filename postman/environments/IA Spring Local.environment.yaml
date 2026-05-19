@@ -1,0 +1,6 @@
+name: IA Spring Local
+values:
+  - key: baseUrl
+    value: 'localhost:8080'
+    enabled: true
+    type: default

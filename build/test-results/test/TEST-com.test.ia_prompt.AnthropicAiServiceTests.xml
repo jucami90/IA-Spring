@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.ia_prompt.AnthropicAiServiceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-19T16:52:43.889Z" hostname="192.168.0.29" time="0.488">
+  <properties/>
+  <testcase name="testAskQuestion()" classname="com.test.ia_prompt.AnthropicAiServiceTests" time="0.488"/>
+  <system-out><![CDATA[13:52:43.025 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.test.ia_prompt.AnthropicAiServiceTests]: AnthropicAiServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:52:43.059 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.test.ia_prompt.IaPromptApplication for test class com.test.ia_prompt.AnthropicAiServiceTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.14)
+
+2026-05-19T13:52:43.181-03:00  INFO 57045 --- [ia-prompt] [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: ia-prompt
+2026-05-19T13:52:43.187-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory wiremock/wiremock... 
+2026-05-19T13:52:43.187-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory stubs/wiremock... 
+2026-05-19T13:52:43.187-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory mappings/wiremock... 
+2026-05-19T13:52:43.187-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory wiremock... 
+2026-05-19T13:52:43.188-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory stubs... 
+2026-05-19T13:52:43.188-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory mappings... 
+2026-05-19T13:52:43.188-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : No mocks found under directory
+2026-05-19T13:52:43.188-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : No mocks found under classpath
+2026-05-19T13:52:43.189-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Configuring WireMockServer with name 'wiremock' on HTTP port: 0 and HTTPS port: -1
+2026-05-19T13:52:43.351-03:00  INFO 57045 --- [ia-prompt] [    Test worker] WireMock.wiremock                        : Using HTTP server impl: Jetty12HttpServer
+2026-05-19T13:52:43.353-03:00  INFO 57045 --- [ia-prompt] [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.0.34; built: 2026-04-01T05:45:03.823Z; git: 57e7adb250592bd15f573e7820be9b64632c6637; jvm 25.0.2+10-b329.72
+2026-05-19T13:52:43.359-03:00  INFO 57045 --- [ia-prompt] [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje10s.ServletContextHandler@7c37f145{/__admin,/__admin,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@68699afc{STARTED}}
+2026-05-19T13:52:43.360-03:00  WARN 57045 --- [ia-prompt] [    Test worker] o.eclipse.jetty.util.DeprecationWarning  : Using @Deprecated Class org.eclipse.jetty.ee10.servlets.CrossOriginFilter
+2026-05-19T13:52:43.360-03:00  INFO 57045 --- [ia-prompt] [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje10s.ServletContextHandler@7c37f145{/__admin,/__admin,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@68699afc{STARTED}}
+2026-05-19T13:52:43.361-03:00  INFO 57045 --- [ia-prompt] [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje10s.ServletContextHandler@3c9c6245{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@6d0be7ab{STARTED}}
+2026-05-19T13:52:43.362-03:00  INFO 57045 --- [ia-prompt] [    Test worker] o.e.j.s.handler.ContextHandler.ROOT      : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2026-05-19T13:52:43.362-03:00  INFO 57045 --- [ia-prompt] [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje10s.ServletContextHandler@3c9c6245{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@6d0be7ab{STARTED}}
+2026-05-19T13:52:43.364-03:00  INFO 57045 --- [ia-prompt] [    Test worker] o.e.jetty.server.AbstractConnector       : Started NetworkTrafficServerConnector@767fc11{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:62550}
+2026-05-19T13:52:43.369-03:00  INFO 57045 --- [ia-prompt] [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@7c1447b5{STARTING}[12.0.34,sto=1000] @672ms
+2026-05-19T13:52:43.369-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Started WireMockServer with name 'wiremock':http://localhost:62550
+2026-05-19T13:52:43.369-03:00  INFO 57045 --- [ia-prompt] [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: ia-prompt
+2026-05-19T13:52:43.370-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Adding property 'anthropic.base.url=http://localhost:62550' with HTTP base URL to Spring application context
+2026-05-19T13:52:43.370-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Adding property 'wiremock.server.port=62550' with HTTP port to Spring application context
+2026-05-19T13:52:43.377-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.t.ia_prompt.AnthropicAiServiceTests    : Starting AnthropicAiServiceTests using Java 25.0.2 with PID 57045 (started by jucami90 in /Users/jucami90/Documents/Curso IA Spring/IA-Spring)
+2026-05-19T13:52:43.377-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.t.ia_prompt.AnthropicAiServiceTests    : No active profile set, falling back to 1 default profile: "default"
+2026-05-19T13:52:43.883-03:00  INFO 57045 --- [ia-prompt] [    Test worker] c.t.ia_prompt.AnthropicAiServiceTests    : Started AnthropicAiServiceTests in 0.784 seconds (process running for 1.187)
+2026-05-19T13:52:43.890-03:00  INFO 57045 --- [ia-prompt] [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: ia-prompt
+2026-05-19T13:52:43.892-03:00  INFO 57045 --- [ia-prompt] [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: ia-prompt
+2026-05-19T13:52:43.892-03:00  INFO 57045 --- [ia-prompt] [    Test worker] o.w.s.i.WireMockSpringJunitExtension     : Configuring WireMock for default instance, 'wiremock' on '62550'.
+2026-05-19T13:52:44.269-03:00  INFO 57045 --- [ia-prompt] [qtp968612320-49] o.e.j.s.handler.ContextHandler.___admin  : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler. Normalized mapped under returned 'null'
+2026-05-19T13:52:44.274-03:00  INFO 57045 --- [ia-prompt] [qtp968612320-49] WireMock.wiremock                        : Admin request received:
+127.0.0.1 - POST /mappings
+
+Content-Type: [application/json]
+Host: [localhost:62550]
+Content-Length: [662]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/5.5.2 (Java/25.0.2)]
+{
+  "id" : "02c31880-1d77-4174-b04e-dcb3225b308d",
+  "request" : {
+    "url" : "/v1/messages",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\n  \"id\" : \"msg_01XFDUDYJgAACzvnptvVoYEL\",\n  \"type\" : \"message\",\n  \"role\" : \"assistant\",\n  \"content\" : [ {\n    \"type\" : \"text\",\n    \"text\" : \"Paris\"\n  } ],\n  \"model\" : \"claude-opus-4-5\",\n  \"stop_reason\" : \"end_turn\",\n  \"stop_sequence\" : null,\n  \"usage\" : {\n    \"input_tokens\" : 10,\n    \"output_tokens\" : 3\n  }\n}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "02c31880-1d77-4174-b04e-dcb3225b308d"
+}
+
+2026-05-19T13:52:44.344-03:00  INFO 57045 --- [ia-prompt] [qtp968612320-42] WireMock.wiremock                        : Request received:
+127.0.0.1 - POST /v1/messages
+
+anthropic-version: [2023-06-01]
+anthropic-beta: [tools-2024-04-04,pdfs-2024-09-25,structured-outputs-2025-11-13]
+Content-Type: [application/json]
+x-api-key: [${SPRING_AI_ANTHROPIC_API_KEY}]
+Accept-Encoding: [gzip, x-gzip, deflate]
+Host: [localhost:62550]
+Transfer-Encoding: [chunked]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/5.5.2 (Java/25.0.2)]
+{"model":"claude-haiku-4-5","messages":[{"content":[{"type":"text","text":"What is the capital of France?"}],"role":"user"}],"max_tokens":500,"stream":false,"temperature":0.8}
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\n  \"id\" : \"msg_01XFDUDYJgAACzvnptvVoYEL\",\n  \"type\" : \"message\",\n  \"role\" : \"assistant\",\n  \"content\" : [ {\n    \"type\" : \"text\",\n    \"text\" : \"Paris\"\n  } ],\n  \"model\" : \"claude-opus-4-5\",\n  \"stop_reason\" : \"end_turn\",\n  \"stop_sequence\" : null,\n  \"usage\" : {\n    \"input_tokens\" : 10,\n    \"output_tokens\" : 3\n  }\n}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [02c31880-1d77-4174-b04e-dcb3225b308d]
+
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/jucami90/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.8/f09415827a71be7ed621c7bd02550678f28bc81c/byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

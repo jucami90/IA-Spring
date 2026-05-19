@@ -1,0 +1,3 @@
+$kind: collection
+name: IA Spring API
+description: Collection for the IA Spring Boot + Spring AI application. Contains endpoints for interacting with the AI chat service.

@@ -1,0 +1,21 @@
+$kind: http-request
+name: Ask Question
+method: POST
+url: 'http://{{baseUrl}}/ask'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "question": "What is Spring AI?"
+    }
+description: |-
+  Send a question to the AI chat service. The service uses Spring AI with OpenAI under the hood.
+
+  **Request Body:**
+  - `question` (string): The question to ask the AI.
+
+  **Response:**
+  - `answer` (string): The AI-generated answer.

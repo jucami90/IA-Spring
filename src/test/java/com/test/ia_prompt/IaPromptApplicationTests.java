@@ -1,7 +1,7 @@
 package com.test.ia_prompt;
 
 import com.test.ia_prompt.record.Question;
-import com.test.ia_prompt.service.SpringAiService;
+import com.test.ia_prompt.service.OpenAiService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -10,7 +10,7 @@ import com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder;
 import com.github.tomakehurst.wiremock.client.WireMock;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
-import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
@@ -22,15 +22,17 @@ import java.nio.charset.Charset;
 
 @EnableWireMock(
 		@ConfigureWireMock(baseUrlProperties = "openai.base.url"))
-@SpringBootTest(
-		properties = "spring.ai.openai.base-url=${openai.base.url}")
+@SpringBootTest(properties = {
+		"spring.ai.openai.base-url=${openai.base.url}",
+		"spring.ai.anthropic.api-key=test"
+})
 public class IaPromptApplicationTests {
 
 	@Value("classpath:/test-openai-response.json")
 	Resource responseResource;
 
 	@Autowired
-	ChatClient.Builder chatClientBuilder;
+	OpenAiChatModel openAiChatModel;
 
 	@BeforeEach
 	public void setup() throws IOException {
@@ -45,7 +47,7 @@ public class IaPromptApplicationTests {
 	@Test
 	public void testAskQuestion() {
 		var boardGameService =
-				new SpringAiService(chatClientBuilder);
+				new OpenAiService(openAiChatModel);
 		var answer =
 				boardGameService.askQuestion(
 						new Question("What is the capital of France?"));

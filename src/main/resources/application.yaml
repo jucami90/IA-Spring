@@ -4,3 +4,5 @@ spring:
   ai:
     openai:
       api-key: ${SPRING_AI_OPENAI_API_KEY}
+    anthropic:
+      api-key: ${SPRING_AI_ANTHROPIC_API_KEY}

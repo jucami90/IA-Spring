@@ -2,17 +2,17 @@ package com.test.ia_prompt.service;
 
 import com.test.ia_prompt.record.Answer;
 import com.test.ia_prompt.record.Question;
+import org.springframework.ai.anthropic.AnthropicChatModel;
 import org.springframework.ai.chat.client.ChatClient;
-import org.springframework.ai.chat.prompt.ChatOptions;
 import org.springframework.stereotype.Service;
 
 @Service
-public class SpringAiService implements BoardService {
+public class AnthropicAiService implements BoardService {
 
     private final ChatClient chatClient;
 
-    public SpringAiService(ChatClient.Builder chatClientBuilder) {
-        this.chatClient = chatClientBuilder.build();
+    public AnthropicAiService(AnthropicChatModel anthropicChatModel) {
+        this.chatClient = ChatClient.builder(anthropicChatModel).build();
     }
 
     @Override
