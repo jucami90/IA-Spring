@@ -48,7 +48,7 @@ public class OllamaAiServiceTests {
     public void testAskQuestion() {
         var ollamaService = new OllamaAiService(ollamaChatModel);
         var answer = ollamaService.askQuestion(
-                new Question("What is the capital of France?"));
+                new Question("Capitals","What is the capital of France?"));
         Assertions.assertThat(answer).isNotNull();
         Assertions.assertThat(answer.answer()).isEqualTo("Paris");
     }

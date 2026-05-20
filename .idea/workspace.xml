@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcb3f4b8-40ac-4abb-9510-9cc92571ad83" name="Changes" comment="create porjecto Spring AI with OpenAI" />
+    <list default="true" id="bcb3f4b8-40ac-4abb-9510-9cc92571ad83" name="Changes" comment="create porjecto Spring AI with OpenAI">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/IA-Spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/controller/AskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/controller/AskController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/record/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/record/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/controller/AskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/controller/AskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/record/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/record/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/record/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/record/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/AnthropicAiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/AnthropicAiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/OllamaAiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/OllamaAiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/OpenAiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/OpenAiService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +42,7 @@
   <component name="CopilotChats">
     <option name="panelChat">
       <chat>
-        <option name="activeSessionId" value="9ff00da3-e94b-45b1-a4ca-f4cf572b4873" />
+        <option name="activeSessionId" value="56384969-8c63-4fce-b302-682bfb7e03ad" />
         <option name="sessions">
           <session>
             <option name="chatType" value="PANEL" />
@@ -32,6 +61,23 @@
             <option name="modelValue" value="auto" />
             <option name="targetType" value="LOCAL" />
           </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="a8ef5b77-0b0b-40c2-b65b-85defc4c1836" />
+            <option name="modeId" value="Ask" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="status" value="Completed" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="56384969-8c63-4fce-b302-682bfb7e03ad" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
         </option>
         <option name="type" value="PANEL" />
       </chat>
@@ -40,7 +86,14 @@
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_/Users/jucami90/Documents/Curso IA Spring/IA-Spring" value="3DwVRJxqmOgjFRQ1QXR9NQdAD68" />
+      <entry key="_/Users/jucami90/Documents/GitHub/IA-Spring" value="3Dzi8AcBaDEjrpuSwlLeulWbgjv" />
     </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="agent-panel" value="Auto" />
+      <entry key="chat-panel" value="Auto" />
+    </selectedModels>
   </component>
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="7" />
@@ -54,6 +107,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -86,12 +142,12 @@
     &quot;assignee&quot;: &quot;jucami90&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jucami90/IA-Spring.git&quot;,
-    &quot;accountId&quot;: &quot;d3467f31-746d-4985-8e9a-776a9bc412c1&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jucami90/IA-Spring.git",
+    "accountId": "f7156cc7-eec9-4250-a42c-b99cd1d9a267"
   }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -163,6 +219,20 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Ask" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -179,6 +249,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.IA-Spring.executor": "Run",
     "Spring Boot.IaPromptApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -203,7 +274,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/test/ia_prompt" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle./Users/jucami90/Documents/Curso IA Spring/IA-Spring [dependencies]">
+  <component name="RunManager" selected="Gradle.Tests in 'com.test.ia_prompt'">
     <configuration name="IaPromptApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -258,6 +329,33 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'com.test.ia_prompt'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.test.ia_prompt.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <configuration name="/Users/jucami90/Documents/Curso IA Spring/IA-Spring [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -283,8 +381,28 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
+    <configuration name="IA-Spring" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="25" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="ia-prompt.main" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ia_prompt.IaPromptApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.Tests in 'com.test.ia_prompt'" />
+      <item itemvalue="Gradle./Users/jucami90/Documents/Curso IA Spring/IA-Spring [dependencies]" />
+      <item itemvalue="Gradle.IaPromptApplicationTests" />
+      <item itemvalue="Gradle.IaPromptApplicationTests.testAskQuestion" />
+      <item itemvalue="Spring Boot.IA-Spring" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'com.test.ia_prompt'" />
         <item itemvalue="Gradle./Users/jucami90/Documents/Curso IA Spring/IA-Spring [dependencies]" />
         <item itemvalue="Gradle.IaPromptApplicationTests" />
         <item itemvalue="Gradle.IaPromptApplicationTests.testAskQuestion" />

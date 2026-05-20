@@ -51,7 +51,7 @@ public class IaPromptApplicationTests {
 				new OpenAiService(openAiChatModel);
 		var answer =
 				boardGameService.askQuestion(
-						new Question("What is the capital of France?"));
+						new Question("Capitals","What is the capital of France?"));
 		Assertions.assertThat(answer).isNotNull();
 		Assertions.assertThat(answer.answer()).isEqualTo("Paris");
 	}

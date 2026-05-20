@@ -21,7 +21,7 @@ public class OpenAiService implements BoardService {
                 .user(question.question())
                 .call()
                 .content();
-        return new Answer(answerText);
+        return new Answer(question.gameTitle(), answerText);
     }
 
 }
