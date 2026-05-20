@@ -5,11 +5,9 @@ import com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder;
 import com.github.tomakehurst.wiremock.client.WireMock;
 import com.test.ia_prompt.record.Question;
 import com.test.ia_prompt.service.OllamaAiService;
-import com.test.ia_prompt.service.RulesService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.ai.ollama.OllamaChatModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -33,13 +31,11 @@ public class OllamaAiServiceTests {
     Resource responseResource;
 
     @Autowired
-    OllamaChatModel ollamaChatModel;
-
-    @Autowired
-    RulesService  rulesService;
+    OllamaAiService ollamaAiService;
 
     @BeforeEach
     public void setup() throws IOException {
+
         var cannedResponse =
                 responseResource.getContentAsString(Charset.defaultCharset());
         var mapper = new ObjectMapper();
@@ -50,8 +46,7 @@ public class OllamaAiServiceTests {
 
     @Test
     public void testAskQuestion() {
-        var ollamaService = new OllamaAiService(ollamaChatModel,rulesService);
-        var answer = ollamaService.askQuestion(
+        var answer = ollamaAiService.askQuestion(
                 new Question("Capitals","What is the capital of France?"));
         Assertions.assertThat(answer).isNotNull();
         Assertions.assertThat(answer.answer()).isEqualTo("Paris");

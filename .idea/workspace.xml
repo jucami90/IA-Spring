@@ -11,13 +11,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/service/OllamaAiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/service/OllamaAiService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/promptTemplates/questionPromptTemplate.st" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/promptTemplates/questionPromptTemplate.st" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/OllamaAiService.class.uniqueId1" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/OllamaAiService.class.uniqueId1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/OllamaAiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/OllamaAiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/promptTemplates/questionPromptTemplate.st" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/promptTemplates/questionPromptTemplate.st" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/test/ia_prompt/OllamaAiServiceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/test/ia_prompt/OllamaAiServiceTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.test.ia_prompt.OllamaAiServiceTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.test.ia_prompt.OllamaAiServiceTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.test.ia_prompt.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.test.ia_prompt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.test.ia_prompt.OllamaAiServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.test.ia_prompt.OllamaAiServiceTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/OllamaAiServiceTests.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/OllamaAiServiceTests.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/ia_prompt/OllamaAiServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/ia_prompt/OllamaAiServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,39 +228,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle./Users/jucami90/Documents/Curso IA Spring/IA-Spring [dependencies].executor": "Run",
-    "Gradle.Build IA-Spring.executor": "Run",
-    "Gradle.IaPromptApplicationTests.executor": "Run",
-    "Gradle.IaPromptApplicationTests.testAskQuestion.executor": "Run",
-    "Gradle.OllamaAiServiceTests.executor": "Run",
-    "Gradle.Tests in 'com.test.ia_prompt'.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.IA-Spring.executor": "Run",
-    "Spring Boot.IaPromptApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jucami90/Documents/Curso IA Spring/IA-Spring",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle./Users/jucami90/Documents/Curso IA Spring/IA-Spring [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build IA-Spring.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.IaPromptApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.IaPromptApplicationTests.testAskQuestion.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.OllamaAiServiceTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tests in 'com.test.ia_prompt'.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.IA-Spring.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.IaPromptApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jucami90/Documents/GitHub/IA-Spring/src/test/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/promptTemplates" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
@@ -263,7 +271,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/test/ia_prompt" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.IA-Spring">
+  <component name="RunManager" selected="Gradle.Tests in 'com.test.ia_prompt'">
     <configuration name="IaPromptApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -419,8 +427,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.OllamaAiServiceTests" />
         <item itemvalue="Gradle.Tests in 'com.test.ia_prompt'" />
+        <item itemvalue="Gradle.OllamaAiServiceTests" />
         <item itemvalue="Gradle./Users/jucami90/Documents/Curso IA Spring/IA-Spring [dependencies]" />
         <item itemvalue="Gradle.IaPromptApplicationTests" />
         <item itemvalue="Gradle.IaPromptApplicationTests.testAskQuestion" />
