@@ -5,34 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb3f4b8-40ac-4abb-9510-9cc92571ad83" name="Changes" comment="create porjecto Spring AI with OpenAI">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/IA-Spring.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/controller/AskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/controller/AskController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/record/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/record/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/service/OllamaAiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/service/OllamaAiService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.test.ia_prompt.AnthropicAiServiceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.test.ia_prompt.IaPromptApplicationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.test.ia_prompt.OllamaAiServiceTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.test.ia_prompt.OllamaAiServiceTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.test.ia_prompt.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.test.ia_prompt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.test.ia_prompt.AnthropicAiServiceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.test.ia_prompt.IaPromptApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.test.ia_prompt.OllamaAiServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.test.ia_prompt.OllamaAiServiceTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Answer.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AnthropicAiService.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/BoardService.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ExceptionHandlerAdvice.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/OllamaAiService.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/OpenAiService.class.uniqueId1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/controller/AskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/controller/AskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/record/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/record/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/record/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/record/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/AnthropicAiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/AnthropicAiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/AnthropicAiServiceTests.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/IaPromptApplicationTests.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/OllamaAiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/OllamaAiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/OpenAiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/OpenAiService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
   <component name="CopilotChats">
     <option name="panelChat">
       <chat>
-        <option name="activeSessionId" value="56384969-8c63-4fce-b302-682bfb7e03ad" />
+        <option name="activeSessionId" value="a8ef5b77-0b0b-40c2-b65b-85defc4c1836" />
         <option name="sessions">
           <session>
             <option name="chatType" value="PANEL" />
@@ -142,12 +145,12 @@
     &quot;assignee&quot;: &quot;jucami90&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jucami90/IA-Spring.git",
-    "accountId": "f7156cc7-eec9-4250-a42c-b99cd1d9a267"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jucami90/IA-Spring.git&quot;,
+    &quot;accountId&quot;: &quot;f7156cc7-eec9-4250-a42c-b99cd1d9a267&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -243,6 +246,8 @@
     "Gradle.Build IA-Spring.executor": "Run",
     "Gradle.IaPromptApplicationTests.executor": "Run",
     "Gradle.IaPromptApplicationTests.testAskQuestion.executor": "Run",
+    "Gradle.OllamaAiServiceTests.executor": "Run",
+    "Gradle.Tests in 'com.test.ia_prompt'.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -274,7 +279,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/test/ia_prompt" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'com.test.ia_prompt'">
+  <component name="RunManager" selected="Spring Boot.IA-Spring">
     <configuration name="IaPromptApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -316,6 +321,33 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.test.ia_prompt.IaPromptApplicationTests.testAskQuestion&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OllamaAiServiceTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.test.ia_prompt.OllamaAiServiceTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -394,6 +426,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.OllamaAiServiceTests" />
       <item itemvalue="Gradle.Tests in 'com.test.ia_prompt'" />
       <item itemvalue="Gradle./Users/jucami90/Documents/Curso IA Spring/IA-Spring [dependencies]" />
       <item itemvalue="Gradle.IaPromptApplicationTests" />
@@ -402,6 +435,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OllamaAiServiceTests" />
         <item itemvalue="Gradle.Tests in 'com.test.ia_prompt'" />
         <item itemvalue="Gradle./Users/jucami90/Documents/Curso IA Spring/IA-Spring [dependencies]" />
         <item itemvalue="Gradle.IaPromptApplicationTests" />

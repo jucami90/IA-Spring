@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.018s</div>
+<div class="counter">0.493s</div>
 <p>duration</p>
 </div>
 </td>
@@ -66,6 +66,9 @@
 <li>
 <a href="#">Standard output</a>
 </li>
+<li>
+<a href="#">Standard error</a>
+</li>
 </ul>
 <div class="tab">
 <h2>Tests</h2>
@@ -79,7 +82,7 @@
 </thead>
 <tr>
 <td class="success">testAskQuestion()</td>
-<td class="success">0.018s</td>
+<td class="success">0.493s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,8 +90,8 @@
 <div class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2026-05-20T17:15:17.666-03:00  INFO 44271 --- [ia-prompt] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.test.ia_prompt.OllamaAiServiceTests]: OllamaAiServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-05-20T17:15:17.667-03:00  INFO 44271 --- [ia-prompt] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.test.ia_prompt.IaPromptApplication for test class com.test.ia_prompt.OllamaAiServiceTests
+<pre>18:00:55.389 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.test.ia_prompt.OllamaAiServiceTests]: OllamaAiServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:00:55.430 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.test.ia_prompt.IaPromptApplication for test class com.test.ia_prompt.OllamaAiServiceTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -99,47 +102,47 @@
 
  :: Spring Boot ::               (v3.5.14)
 
-2026-05-20T17:15:17.674-03:00  INFO 44271 --- [ia-prompt] [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: ia-prompt
-2026-05-20T17:15:17.674-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory wiremock/wiremock... 
-2026-05-20T17:15:17.674-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory stubs/wiremock... 
-2026-05-20T17:15:17.674-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory mappings/wiremock... 
-2026-05-20T17:15:17.674-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory wiremock... 
-2026-05-20T17:15:17.675-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory stubs... 
-2026-05-20T17:15:17.675-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory mappings... 
-2026-05-20T17:15:17.675-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : No mocks found under directory
-2026-05-20T17:15:17.675-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : No mocks found under classpath
-2026-05-20T17:15:17.675-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Configuring WireMockServer with name 'wiremock' on HTTP port: 0 and HTTPS port: -1
-2026-05-20T17:15:17.677-03:00  INFO 44271 --- [ia-prompt] [    Test worker] WireMock.wiremock                        : Using HTTP server impl: Jetty12HttpServer
-2026-05-20T17:15:17.677-03:00  INFO 44271 --- [ia-prompt] [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.0.34; built: 2026-04-01T05:45:03.823Z; git: 57e7adb250592bd15f573e7820be9b64632c6637; jvm 25.0.2+10-LTS
-2026-05-20T17:15:17.678-03:00  INFO 44271 --- [ia-prompt] [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje10s.ServletContextHandler@2f1b8770{/__admin,/__admin,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@74fd5fb0{STARTED}}
-2026-05-20T17:15:17.678-03:00  WARN 44271 --- [ia-prompt] [    Test worker] o.eclipse.jetty.util.DeprecationWarning  : Using @Deprecated Class org.eclipse.jetty.ee10.servlets.CrossOriginFilter
-2026-05-20T17:15:17.678-03:00  INFO 44271 --- [ia-prompt] [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje10s.ServletContextHandler@2f1b8770{/__admin,/__admin,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@74fd5fb0{STARTED}}
-2026-05-20T17:15:17.678-03:00  INFO 44271 --- [ia-prompt] [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje10s.ServletContextHandler@7c16cc25{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@4f96e484{STARTED}}
-2026-05-20T17:15:17.678-03:00  INFO 44271 --- [ia-prompt] [    Test worker] o.e.j.s.handler.ContextHandler.ROOT      : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
-2026-05-20T17:15:17.678-03:00  INFO 44271 --- [ia-prompt] [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje10s.ServletContextHandler@7c16cc25{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@4f96e484{STARTED}}
-2026-05-20T17:15:17.679-03:00  INFO 44271 --- [ia-prompt] [    Test worker] o.e.jetty.server.AbstractConnector       : Started NetworkTrafficServerConnector@3cc5ca01{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:54273}
-2026-05-20T17:15:17.679-03:00  INFO 44271 --- [ia-prompt] [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@4b8466c2{STARTING}[12.0.34,sto=1000] @2121ms
-2026-05-20T17:15:17.679-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Started WireMockServer with name 'wiremock':http://localhost:54273
-2026-05-20T17:15:17.679-03:00  INFO 44271 --- [ia-prompt] [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: ia-prompt
-2026-05-20T17:15:17.679-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Adding property 'ollama.base.url=http://localhost:54273' with HTTP base URL to Spring application context
-2026-05-20T17:15:17.679-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Adding property 'wiremock.server.port=54273' with HTTP port to Spring application context
-2026-05-20T17:15:17.680-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.test.ia_prompt.OllamaAiServiceTests    : Starting OllamaAiServiceTests using Java 25.0.2 with PID 44271 (started by jucami90 in /Users/jucami90/Documents/GitHub/IA-Spring)
-2026-05-20T17:15:17.680-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.test.ia_prompt.OllamaAiServiceTests    : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2026-05-20T17:15:17.765-03:00  INFO 44271 --- [ia-prompt] [    Test worker] c.test.ia_prompt.OllamaAiServiceTests    : Started OllamaAiServiceTests in 0.097 seconds (process running for 2.208)
-2026-05-20T17:15:17.766-03:00  INFO 44271 --- [ia-prompt] [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: ia-prompt
-2026-05-20T17:15:17.766-03:00  INFO 44271 --- [ia-prompt] [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: ia-prompt
-2026-05-20T17:15:17.766-03:00  INFO 44271 --- [ia-prompt] [    Test worker] o.w.s.i.WireMockSpringJunitExtension     : Configuring WireMock for default instance, 'wiremock' on '54273'.
-2026-05-20T17:15:17.770-03:00  INFO 44271 --- [ia-prompt] [qtp288663860-73] o.e.j.s.handler.ContextHandler.___admin  : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler. Normalized mapped under returned 'null'
-2026-05-20T17:15:17.770-03:00  INFO 44271 --- [ia-prompt] [qtp288663860-73] WireMock.wiremock                        : Admin request received:
+2026-05-20T18:00:55.560-03:00  INFO 4137 --- [ia-prompt] [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: ia-prompt
+2026-05-20T18:00:55.566-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory wiremock/wiremock... 
+2026-05-20T18:00:55.567-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory stubs/wiremock... 
+2026-05-20T18:00:55.567-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory mappings/wiremock... 
+2026-05-20T18:00:55.567-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory wiremock... 
+2026-05-20T18:00:55.567-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory stubs... 
+2026-05-20T18:00:55.567-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Looking for mocks in directory mappings... 
+2026-05-20T18:00:55.567-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : No mocks found under directory
+2026-05-20T18:00:55.568-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : No mocks found under classpath
+2026-05-20T18:00:55.568-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Configuring WireMockServer with name 'wiremock' on HTTP port: 0 and HTTPS port: -1
+2026-05-20T18:00:55.795-03:00  INFO 4137 --- [ia-prompt] [    Test worker] WireMock.wiremock                        : Using HTTP server impl: Jetty12HttpServer
+2026-05-20T18:00:55.798-03:00  INFO 4137 --- [ia-prompt] [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.0.34; built: 2026-04-01T05:45:03.823Z; git: 57e7adb250592bd15f573e7820be9b64632c6637; jvm 25.0.2+10-LTS
+2026-05-20T18:00:55.803-03:00  INFO 4137 --- [ia-prompt] [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje10s.ServletContextHandler@63f9b562{/__admin,/__admin,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@20ead579{STARTED}}
+2026-05-20T18:00:55.804-03:00  WARN 4137 --- [ia-prompt] [    Test worker] o.eclipse.jetty.util.DeprecationWarning  : Using @Deprecated Class org.eclipse.jetty.ee10.servlets.CrossOriginFilter
+2026-05-20T18:00:55.804-03:00  INFO 4137 --- [ia-prompt] [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje10s.ServletContextHandler@63f9b562{/__admin,/__admin,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@20ead579{STARTED}}
+2026-05-20T18:00:55.805-03:00  INFO 4137 --- [ia-prompt] [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje10s.ServletContextHandler@10e5bf9c{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@68c9e023{STARTED}}
+2026-05-20T18:00:55.806-03:00  INFO 4137 --- [ia-prompt] [    Test worker] o.e.j.s.handler.ContextHandler.ROOT      : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2026-05-20T18:00:55.806-03:00  INFO 4137 --- [ia-prompt] [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje10s.ServletContextHandler@10e5bf9c{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@68c9e023{STARTED}}
+2026-05-20T18:00:55.808-03:00  INFO 4137 --- [ia-prompt] [    Test worker] o.e.jetty.server.AbstractConnector       : Started NetworkTrafficServerConnector@37937c68{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:49741}
+2026-05-20T18:00:55.815-03:00  INFO 4137 --- [ia-prompt] [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@3fa21d49{STARTING}[12.0.34,sto=1000] @744ms
+2026-05-20T18:00:55.815-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Started WireMockServer with name 'wiremock':http://localhost:49741
+2026-05-20T18:00:55.815-03:00  INFO 4137 --- [ia-prompt] [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: ia-prompt
+2026-05-20T18:00:55.816-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Adding property 'ollama.base.url=http://localhost:49741' with HTTP base URL to Spring application context
+2026-05-20T18:00:55.817-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.w.s.i.WireMockServerCreator wiremock   : Adding property 'wiremock.server.port=49741' with HTTP port to Spring application context
+2026-05-20T18:00:55.823-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.test.ia_prompt.OllamaAiServiceTests    : Starting OllamaAiServiceTests using Java 25.0.2 with PID 4137 (started by jucami90 in /Users/jucami90/Documents/GitHub/IA-Spring)
+2026-05-20T18:00:55.823-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.test.ia_prompt.OllamaAiServiceTests    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2026-05-20T18:00:56.377-03:00  INFO 4137 --- [ia-prompt] [    Test worker] c.test.ia_prompt.OllamaAiServiceTests    : Started OllamaAiServiceTests in 0.902 seconds (process running for 1.306)
+2026-05-20T18:00:56.384-03:00  INFO 4137 --- [ia-prompt] [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: ia-prompt
+2026-05-20T18:00:56.385-03:00  INFO 4137 --- [ia-prompt] [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: ia-prompt
+2026-05-20T18:00:56.385-03:00  INFO 4137 --- [ia-prompt] [    Test worker] o.w.s.i.WireMockSpringJunitExtension     : Configuring WireMock for default instance, 'wiremock' on '49741'.
+2026-05-20T18:00:56.770-03:00  INFO 4137 --- [ia-prompt] [tp1092109169-49] o.e.j.s.handler.ContextHandler.___admin  : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler. Normalized mapped under returned 'null'
+2026-05-20T18:00:56.775-03:00  INFO 4137 --- [ia-prompt] [tp1092109169-49] WireMock.wiremock                        : Admin request received:
 127.0.0.1 - POST /mappings
 
 Content-Type: [application/json]
-Host: [localhost:54273]
+Host: [localhost:49741]
 Content-Length: [716]
 Connection: [keep-alive]
 User-Agent: [Apache-HttpClient/5.5.2 (Java/25.0.2)]
 {
-  &quot;id&quot; : &quot;bc8d51a7-9969-4cd9-968c-d0287c66a3b6&quot;,
+  &quot;id&quot; : &quot;225b4479-65b8-46c8-866e-19778a32c7d1&quot;,
   &quot;request&quot; : {
     &quot;url&quot; : &quot;/api/chat&quot;,
     &quot;method&quot; : &quot;POST&quot;
@@ -151,20 +154,20 @@ User-Agent: [Apache-HttpClient/5.5.2 (Java/25.0.2)]
       &quot;Content-Type&quot; : &quot;application/json&quot;
     }
   },
-  &quot;uuid&quot; : &quot;bc8d51a7-9969-4cd9-968c-d0287c66a3b6&quot;
+  &quot;uuid&quot; : &quot;225b4479-65b8-46c8-866e-19778a32c7d1&quot;
 }
 
-2026-05-20T17:15:17.778-03:00  INFO 44271 --- [ia-prompt] [qtp288663860-66] WireMock.wiremock                        : Request received:
+2026-05-20T18:00:56.845-03:00  INFO 4137 --- [ia-prompt] [tp1092109169-42] WireMock.wiremock                        : Request received:
 127.0.0.1 - POST /api/chat
 
 Content-Type: [application/json]
 Accept: [application/json]
 Accept-Encoding: [gzip, x-gzip, deflate]
-Host: [localhost:54273]
+Host: [localhost:49741]
 Transfer-Encoding: [chunked]
 Connection: [keep-alive]
 User-Agent: [Apache-HttpClient/5.5.2 (Java/25.0.2)]
-{&quot;model&quot;:&quot;gemma4&quot;,&quot;messages&quot;:[{&quot;role&quot;:&quot;user&quot;,&quot;content&quot;:&quot;Answer this question about Capitals: What is the capital of France?&quot;}],&quot;stream&quot;:false,&quot;tools&quot;:[],&quot;options&quot;:{}}
+{&quot;model&quot;:&quot;gemma4&quot;,&quot;messages&quot;:[{&quot;role&quot;:&quot;user&quot;,&quot;content&quot;:&quot;Answer this question about Capitals: What is the capital of France?\n&quot;}],&quot;stream&quot;:false,&quot;tools&quot;:[],&quot;options&quot;:{}}
 
 
 Matched response definition:
@@ -179,8 +182,19 @@ Matched response definition:
 Response:
 HTTP/1.1 200
 Content-Type: [application/json]
-Matched-Stub-Id: [bc8d51a7-9969-4cd9-968c-d0287c66a3b6]
+Matched-Stub-Id: [225b4479-65b8-46c8-866e-19778a32c7d1]
 
+</pre>
+</span>
+</div>
+<div class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/jucami90/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.8/f09415827a71be7ed621c7bd02550678f28bc81c/byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
 </pre>
 </span>
 </div>
@@ -192,7 +206,7 @@ Matched-Stub-Id: [bc8d51a7-9969-4cd9-968c-d0287c66a3b6]
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.14.4</a> at May 20, 2026, 5:15:18 PM</p>
+<a href="https://www.gradle.org">Gradle 8.14.4</a> at May 20, 2026, 6:00:57 PM</p>
 </div>
 </div>
 </body>
