@@ -5,6 +5,7 @@ import com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder;
 import com.github.tomakehurst.wiremock.client.WireMock;
 import com.test.ia_prompt.record.Question;
 import com.test.ia_prompt.service.OllamaAiService;
+import com.test.ia_prompt.service.RulesService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -34,6 +35,9 @@ public class OllamaAiServiceTests {
     @Autowired
     OllamaChatModel ollamaChatModel;
 
+    @Autowired
+    RulesService  rulesService;
+
     @BeforeEach
     public void setup() throws IOException {
         var cannedResponse =
@@ -46,7 +50,7 @@ public class OllamaAiServiceTests {
 
     @Test
     public void testAskQuestion() {
-        var ollamaService = new OllamaAiService(ollamaChatModel);
+        var ollamaService = new OllamaAiService(ollamaChatModel,rulesService);
         var answer = ollamaService.askQuestion(
                 new Question("Capitals","What is the capital of France?"));
         Assertions.assertThat(answer).isNotNull();

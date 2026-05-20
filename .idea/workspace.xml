@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb3f4b8-40ac-4abb-9510-9cc92571ad83" name="Changes" comment="create porjecto Spring AI with OpenAI">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/service/OllamaAiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/test/ia_prompt/service/OllamaAiService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/promptTemplates/questionPromptTemplate.st" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/promptTemplates/questionPromptTemplate.st" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/OllamaAiService.class.uniqueId1" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/OllamaAiService.class.uniqueId1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/OllamaAiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ia_prompt/service/OllamaAiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/promptTemplates/questionPromptTemplate.st" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/promptTemplates/questionPromptTemplate.st" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/ia_prompt/OllamaAiServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/ia_prompt/OllamaAiServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

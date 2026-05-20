@@ -12,9 +12,12 @@ import org.springframework.stereotype.Service;
 public class OllamaAiService implements BoardService {
 
     private final ChatClient chatClient;
+    private final RulesService rulesService;
 
-    public OllamaAiService(OllamaChatModel ollamaChatModel) {
+    public OllamaAiService(OllamaChatModel ollamaChatModel,
+                           RulesService rulesService) {
         this.chatClient = ChatClient.builder(ollamaChatModel).build();
+        this.rulesService = rulesService;
     }
 
     @Value("classpath:/promptTemplates/questionPromptTemplate.st")
@@ -22,11 +25,15 @@ public class OllamaAiService implements BoardService {
 
     @Override
     public Answer askQuestion(Question question) {
+
+        var rules = rulesService.getRulesFor(question.gameTitle());
+
         var answerText = chatClient.prompt()
                 .user(userSpec -> userSpec
                         .text(questionPromptTemplate)
                         .param("gameTitle", question.gameTitle())
-                        .param("question", question.question()))
+                        .param("question", question.question())
+                        .param("rules", rules))
                 .call()
                 .content();
 
