@@ -20,23 +20,39 @@ public class OllamaAiService implements BoardService {
         this.rulesService = rulesService;
     }
 
-    @Value("classpath:/promptTemplates/questionPromptTemplate.st")
-    Resource questionPromptTemplate;
+    @Value("classpath:/promptTemplates/systemPromptTemplate.st")
+    Resource promptTemplate;
 
     @Override
     public Answer askQuestion(Question question) {
-
-        var rules = rulesService.getRulesFor(question.gameTitle());
+        var gameRules = rulesService.getRulesFor(question.gameTitle());
 
         var answerText = chatClient.prompt()
-                .user(userSpec -> userSpec
-                        .text(questionPromptTemplate)
+                .system(systemSpec -> systemSpec
+                        .text(promptTemplate)
                         .param("gameTitle", question.gameTitle())
-                        .param("question", question.question())
-                        .param("rules", rules))
+                        .param("rules", gameRules))
+                .user(question.question())
                 .call()
                 .content();
 
         return new Answer(question.gameTitle(), answerText);
     }
+
+//    @Override
+//    public Answer askQuestion(Question question) {
+//
+//        var rules = rulesService.getRulesFor(question.gameTitle());
+//
+//        var answerText = chatClient.prompt()
+//                .user(userSpec -> userSpec
+//                        .text(questionPromptTemplate)
+//                        .param("gameTitle", question.gameTitle())
+//                        .param("question", question.question())
+//                        .param("rules", rules))
+//                .call()
+//                .content();
+//
+//        return new Answer(question.gameTitle(), answerText);
+//    }
 }

@@ -11,3 +11,12 @@ spring:
       chat:
         options:
           model: gemma4
+
+logging:
+  level:
+    org:
+      zalado:
+        logbook:
+          format:
+            loggers: TRACE
+
